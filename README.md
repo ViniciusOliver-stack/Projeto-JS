@@ -1,2 +1,2 @@
-# Projeto-JS
+# Pratica-Js
  
