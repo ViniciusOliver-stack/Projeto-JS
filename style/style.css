@@ -106,6 +106,7 @@ i.fas.fa-bars::before{
     }
 }
 
+
 /*Resolution Cards*/
 @media (min-width: 992px) and (max-width: 1174px){
     .card-body{
