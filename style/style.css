@@ -28,7 +28,6 @@ a:hover{
 
 }
 
-
 .navbar h1, .navbar li a{
     color: var(--bg-text);
 }
@@ -64,7 +63,6 @@ i.fas.fa-bars::before{
 }
 
 
-
 /*Card*/
 .card{
     border-radius: 5px;
@@ -87,47 +85,51 @@ i.fas.fa-bars::before{
     height: 220px;
 }
 
+/*Resolution*/
 
-input[type=checkbox]{
-    height: 0;
-    width: 0;
-    visibility: hidden;
+@media (min-width: 493px) and (max-width: 768px){
+
+    .bio-text p{
+        font-size: 1.4em;
+        padding: 1rem;
+    }
 }
 
-label {
-    cursor: pointer;
-    text-indent: -9999px;
-    width: 45px;
-    height: 20px;
-    background: grey;
-    float: right;
-    border-radius: 100px;
-    position: relative;
-
-    margin-top: 10px;
+@media (min-width: 320px) and (max-width: 492px){
+    .svg-animated{
+        display: none;
+    }
+    .bio-text p{
+        font-size: 1.5em;
+        padding: 1rem;
+        text-align: left;
+    }
 }
 
-label::after{
-    content: '';
-    position: absolute;
-    top: 4px;
-    left: 4px;
-    width: 12px;
-    height: 12px;
-    background-color: white;
-    border-radius: 90px;
-    transition: 0.3s;
+/*Resolution Cards*/
+@media (min-width: 992px) and (max-width: 1174px){
+    .card-body{
+        font-size: 0.9em;
+        max-height: 320px;
+    }
 }
-
-input:checked + label {
-    background-color: var(--color-headings);
+@media (min-width: 768px) and (max-width: 991px){
+    .card{
+        max-width: 350px;
+        max-height: 500px;
+        margin: 0;
+        padding: 0;
+    }
 }
+@media (min-width: 507px) and (max-width: 767px){
+    .col-lg-3.col-md-6.mb-4{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .card{
+        max-width: 350px;
+        max-height: 500px;
 
-input:checked + label::after {
-    left: calc(100% - 5px);
-    transform: translateX(-100%);
-}
-
-label:active:after {
-    width: 45px;
+    }
 }
