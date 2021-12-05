@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    --bg: #121212;
+    --bg-calculadora: #2e3a51;
+    --bg-btn: #222c41; 
+    --color-btn: #20a888; 
+    --color-btnum: #809092;
+    --text-color: #fff;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 56.25%;
+}
+.container{
+    height: 80vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculadora{
+    background: var(--bg-calculadora);
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+button.butaoop, button.butaonum, button.btn-igual, button.butaoponto, button.butaoac{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 2.5em;
+    margin: 5px;
+    font-weight: 600;
+
+    outline: none;
+}
+
+button.butaoac{
+    background-color:var(--bg-btn);
+    color: var(--color-btn);
+    border-radius: 25px;
+    width: 110px;
+}
+
+button.butaoop{
+    background-color:var(--bg-btn);
+    color: var(--color-btn);
+    border-radius: 25px;
+}
+
+button.butaonum{
+    background: none;
+    color: var(--color-btnum);
+}
+button.btn-igual{
+    background: #18d4a2;
+    color: #2e3a51;
+    border-radius: 25px;
+}
+
+button.butaoponto{
+    background: none;
+    color: var(--color-btnum);
+    width: 110px;
+}
