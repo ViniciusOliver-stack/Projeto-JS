@@ -1,5 +1,6 @@
 html {
 
+
     --bg: #121212;
     --bg-text: white;
     --color-headings: #0077FF;
@@ -25,11 +26,11 @@ a:hover{
     font-size: 0.6em;
     font-weight: 700;
     color: #121212;
-
 }
 
 .navbar h1, .navbar li a{
     color: var(--bg-text);
+    user-select: none;
 }
 .dropdown-menu{
     background: var(--bg);
