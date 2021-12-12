@@ -5,30 +5,36 @@
 
 <p align="center">
   <a href="https://viniciusoliver-stack.github.io/Projeto-JS/">Página</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projetos">Projetos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-sobre">Sobre</a>
+  <a href="#-Projetos">Projetos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Sobre">Sobre</a>
 </p>
 
 ## 💻 Projetos
 <h3>01 - Calculadora</h3>
 <p>Esta é uma calculadora simples que executa operações básicas como multiplicação, divisão...</p>
-<a href="https://viniciusoliver-stack.github.io/Projeto-JS/assets/pages/Calculadora/pages/index.html">Acesse o projeto.</a>
+<a href="https://viniciusoliver-stack.github.io/Projeto-JS/assets/pages/Calculadora/pages/index.html">Acesse o projeto.</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+<a href="https://github.com/ViniciusOliver-stack/Projeto-JS/tree/main/assets/pages/Calculadora">Acesse o código.</a>
 
 ---
 <h3>02 - Cronômetro</h3>
 <p>Este é um cronômetro aonde ele registra/marca horas, min, seg e ms. Possui as funções de: Começar, Parar e Zerar.</p>
-<a href="https://viniciusoliver-stack.github.io/Projeto-JS/assets/pages/Cronometro/page/index.html">Acesse o projeto.</a>
+<a href="https://viniciusoliver-stack.github.io/Projeto-JS/assets/pages/Cronometro/page/index.html">Acesse o projeto.</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+<a href="https://github.com/ViniciusOliver-stack/Projeto-JS/tree/main/assets/pages/Cronometro">Acesse o código.</a>
+
 
 ---
 <h3>03 - Countdown</h3>
 <p>Este countdown está programado para fazer a contagem regressiva de ano novo. Contando dia(s), meses, hora(s) e segundos.</p>
-<a href="https://viniciusoliver-stack.github.io/Projeto-JS/assets/pages/Countdown/page/index.html">Acesse o projeto.</a>
+<a href="https://viniciusoliver-stack.github.io/Projeto-JS/assets/pages/Countdown/page/index.html">Acesse o projeto.</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+<a href="https://github.com/ViniciusOliver-stack/Projeto-JS/tree/main/assets/pages/Countdown">Acesse o código.</a>
 
 ---
 
-<h3>04 - Calculadora</h3>
+<h3>04 - IMC</h3>
 <p>Calculadora de IMC que recebe os dados do usuário e informa a ele segundo os padrões da OMS informando se ele esta abaixo do peso ou acima do peso.</p>
 <a href="https://viniciusoliver-stack.github.io/Projeto-JS/assets/pages/IMC/page/index.html">Acesse o projeto.</a>
+ &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+<a href="https://github.com/ViniciusOliver-stack/Projeto-JS/tree/main/assets/pages/IMC">Acesse o código.</a>
 
 ---
 
