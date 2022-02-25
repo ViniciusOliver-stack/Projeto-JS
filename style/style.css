@@ -1,11 +1,4 @@
-html {
 
-
-    --bg: #121212;
-    --bg-text: white;
-    --color-headings: #0077FF;
-    --color-text: #333333;
-}
 
 body{
     background: var(--bg);
