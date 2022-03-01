@@ -1,0 +1,10 @@
+@media(min-width: 320px) and (max-width: 780px){
+    .projetos_container{
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
