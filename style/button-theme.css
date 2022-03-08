@@ -1,9 +1,6 @@
-html {
-
-    --bg: #121212;
-    --bg-text: white;
-    --color-headings: #0077FF;
-    --color-text: #333333;
+.container_toggle{
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -23,7 +20,7 @@ label {
     border-radius: 100px;
     position: relative;
 
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 label::after{

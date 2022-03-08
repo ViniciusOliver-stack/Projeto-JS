@@ -1,7 +1,4 @@
-body{
-    background: var(--bg);
-    color: var(--text-white);
-}
+
 .body{
     width: 90%;
     margin: 1rem auto;
@@ -20,16 +17,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--bg-text);
 }
+
 .container_nav ul{
     display: flex;
     gap: 20px;
 
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 .container_nav ul li a{
-    color: var(--text-white);
+    color: var(--bg-text);
     transition: .6s;
 }
 .container_nav ul li a:hover{
@@ -44,6 +43,7 @@ body{
     justify-content: center;
     width: 80%;
     margin: 0 auto;
+    color: var(--bg-text);
 }
 .title p{
     font-size: 1.5em;
@@ -57,6 +57,7 @@ body{
     font-size: 3.3rem;
     font-weight: 600;
     margin: 1.5rem;
+    color: var(--bg-text);
 }
 .projetos_container a{
     color: var(--bg);
@@ -88,7 +89,8 @@ body{
 }
 .card{
     background-color: var(--bg-card);
-    box-shadow: 0 2px 18px #000;
+    color: var(--text-white);
+    box-shadow: 0 2px 18px var(--bg-text);
     border-radius: 20px;
     max-width: 300px;
     max-height: 650px;
@@ -133,6 +135,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
+    color: var(--bg-text);
 }
 .links_footer ul{
     display: flex;
