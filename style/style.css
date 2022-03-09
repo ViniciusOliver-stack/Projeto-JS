@@ -1,39 +1,7 @@
-
-.body{
+body{
     width: 90%;
     margin: 1rem auto;
-}
-
-/*Barra de Navegação*/
-.title_JS{
-    background: #efd81d;
-    padding: 10px 5px 0 10px;
-    font-size: 0.6em;
-    font-weight: 700;
-    color: #121212;
-}
-
-.container_nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--bg-text);
-}
-
-.container_nav ul{
-    display: flex;
-    gap: 20px;
-
-    font-weight: 500;
-    font-size: 1.3rem;
-}
-.container_nav ul li a{
-    color: var(--bg-text);
-    transition: .6s;
-}
-.container_nav ul li a:hover{
-    color: #efd81d;
-}
+}  
 
 /*Apresentação*/
 .container_section{
