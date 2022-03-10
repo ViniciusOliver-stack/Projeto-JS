@@ -10,9 +10,6 @@
 .pull-right{
     font-size: 100px;
 }
-.aspas{
-    font-size: 1.5rem;
-}
 
 /*Card*/
 .card-colaboradores{
@@ -27,10 +24,37 @@
 
     text-align: center;
 }
+.topCard, .bottomCard{
+    padding: 20px;
+}
 .mediaCard img{
     background: center/cover;
     width: 90%;
     height: 260px;
     border-radius: 80%;
     margin: 15px;
+}
+
+@media(min-width: 320px) and (max-width:425px){
+    .container_section{
+        width: 100%;
+        font-size: .9rem;
+    }
+    .sobre h1{
+        font-weight: 500;
+        font-size: 2.5rem;
+    }
+    .colaboradores h1{
+        font-size: 2rem;
+    }
+    .pull-right{
+        font-size: 50px;
+    }
+    .mediaCard img{
+        background: center/cover;
+        width: 90%;
+        height: 190px;
+        border-radius: 80%;
+        margin: 15px;
+    }
 }
