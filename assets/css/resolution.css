@@ -1,0 +1,21 @@
+@media (min-width: 320px) and (max-width: 375px){
+  .container{
+    width: 90%;
+  }
+  header{
+    flex-direction: column;
+    gap: 1.5rem;
+
+    margin-bottom: 5rem !important;
+  }
+  main{
+    text-align: center;
+    width: 100%;
+  }
+  main h1{
+    margin-bottom: 1.5rem;
+  }
+  .animated{
+    display: none;
+  }
+}

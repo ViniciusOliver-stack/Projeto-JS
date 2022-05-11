@@ -1,183 +1,187 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" type="image/x-icon" href="../images/fav-icon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prática JS</title>
-
-  <link rel="stylesheet" href="../style/reset.css">
-  <link rel="stylesheet" href="../style/navbar.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <script src="https://kit.fontawesome.com/9aec8975c0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/images/fav-icon.svg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática JS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
-<body class="body">
+<body>
+    <div class="container">
+        <header>
+            <img src="./assets/images/icons8-javascript-240.svg" alt="">
+            <div class="menu-wrapper">
+              <nav>
+                <ul>
+                    <li><a href="#">Início</a> </li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Sobre</a> </li>
+                </ul>
+            </nav>
+            <div class="container_toggle">
+                <div class="toggle">
+                  <input type="checkbox" name="theme" id="switch">
+                  <label for="switch">Toggle</label>
+                </div>
+              </div>
+            </div>
+            
+        </header>
 
-  <header class="container">
-    <nav class="container_nav">
-      <h1>Prática <spnan class="title_JS">JS</spnan></h1>
-      <ul>
-        <li>
-          <a href="#">Github</a>
-        </li>
-        <div class="container_toggle">
-          <div class="toggle">
-            <input type="checkbox" name="theme" id="switch">
-            <label for="switch">Toggle</label>
-          </div>
-        </div>
-      </ul>
-    </nav>
-  </header>
+        <main>
+            <h1>Olá, bem-vindo ao <span>Prática JS </span> 👋</h1>
+            
+           <div class="animated">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_w51pcehl.json"  background="transparent"  speed="1"  style="width: auto; height: auto;"  loop  autoplay></lottie-player>
+           </div>
+           <P>        
+            Esta procurando algum projeto mas não sabe qual projeto fazer ou por onde começar para treinar suas 
+            habilidades de HTML CSS JavaScript e afins. Aqui você pode encontrar 
+            repositórios e projetos pronto para você se inspirar e começar desenvolver
+            os seus próprios projetos.
+            </P>
+        </main>
 
-  <section class="container_section">
-    <div class="estudante">
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ketv1eqz.json"  background="transparent"  speed="1"  style="width: 100%; height: 60vh;"  loop  autoplay></lottie-player>
-    </div>
-    <div class="title">
-      <p>
-        Esta procurando algum projeto mas não sabe qual projeto fazer ou por onde começar para treinar suas 
-        habilidades de HTML CSS JavaScript e afins. Aqui você pode encontrar 
-        repositórios e projetos pronto para você se inspirar e começar desenvolver
-        os seus próprios projetos.
-      </p>
-    </div>
-  </section>
 
-  <section class="projetos_container">
-    <h1>Projetos</h1>
+        <div class="card-wrapper">
+            <div class="card-top">
+                <img src="./assets/images/Group 6.svg" alt="">
+                <div class="description-wrapper">
+                    <h1>Os melhores projetos</h1>
+                    <p>Aqui você pode encontrar os melhores projetos para lhe inspirar na hora da criação.</p>
+                </div>
+            </div>
 
-    <div class="content">
-      <div class="card">
-        <div class="topCard">
-          <h2 class="title">Calculadora</h2>
-          <span class="subtitle">HTML | CSS | JavaScript</span>
-        </div>
-        <div class="mediaCard">
-          <img src="https://source.unsplash.com/random/900×700/?marvel" alt="">
-        </div>
-        <div class="bottomCard">
-          <span class="bottomText">Calculadora simples que executa operações básicas como multiplicação, divisão...</span>
-          <div class="actionCard">
-            <button class="actions"><i class="fa-brands fa-github fa-xl"></i></button>
-            <button class="actions"><i class="fa-solid fa-link fa-xl"></i></button>
-          </div>
-        </div>
-      </div>
-  
-      <div class="card">
-        <div class="topCard">
-          <h2 class="title">Cronômetro</h2>
-          <span class="subtitle">HTML | CSS | JavaScript</span>
-        </div>
-        <div class="mediaCard">
-          <img src="https://source.unsplash.com/random/900×700/?rain" alt="">
-        </div>
-        <div class="bottomCard">
-          <span class="bottomText">Este é um cronômetro aonde ele registra/marca horas, min, seg e ms. Possui as funções de: Começar, Parar e Zerar</span>
-          <div class="actionCard">
-            <button class="actions"><i class="fa-brands fa-github fa-xl"></i></button>
-            <button class="actions"><i class="fa-solid fa-link fa-xl"></i></button>
-          </div>
-        </div>
-      </div>
-  
-      <div class="card">
-        <div class="topCard">
-          <h2 class="title">Countdown</h2>
-          <span class="subtitle">HTML | CSS | JavaScript</span>
-        </div>
-        <div class="mediaCard">
-          <img src="https://source.unsplash.com/random/900×700/?animal" alt="">
-        </div>
-        <div class="bottomCard">
-          <span class="bottomText">Este countdown está programado para fazer a contagem regressiva de ano novo. Contando dia(s), meses, hora(s) e segundos.</span>
-          <div class="actionCard">
-            <button class="actions"><i class="fa-brands fa-github fa-xl"></i></button>
-            <button class="actions"><i class="fa-solid fa-link fa-xl"></i></button>
-          </div>
-        </div>
-      </div>
-  
-      <div class="card">
-        <div class="topCard">
-          <h2 class="title">Título do card</h2>
-          <span class="subtitle">Exemplo de texto secundário</span>
-        </div>
-        <div class="mediaCard">
-          <img src="https://source.unsplash.com/random/900×700/?city" alt="">
-        </div>
-        <div class="bottomCard">
-          <span class="bottomText">Aqui é um é um texto exemplo de resumo da página ou do documento que o card trata.</span>
-          <div class="actionCard">
-            <button class="actions"><i class="fa-brands fa-github fa-xl"></i></button>
-            <button class="actions"><i class="fa-solid fa-link fa-xl"></i></button>
-          </div>
-        </div>
-      </div>
+            <div class="card-top">
+                <img src="./assets/images/Group 6.svg" alt="">
+                <div class="description-wrapper">
+                    <h1>10+</h1>
+                    <p>São mais de 10 projetos do básico ao avançado para você poder adicionar ao seu
+                        portifólio.
+                    </p>
+                </div>
+            </div>
 
-      <div class="card">
-        <div class="topCard">
-          <h2 class="title">Título do card</h2>
-          <span class="subtitle">Exemplo de texto secundário</span>
+            <div class="card-top">
+                <img src="./assets/images/Group 6.svg" alt="">
+                <div class="description-wrapper">
+                    <h1>50+</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
         </div>
-        <div class="mediaCard">
-          <img src="https://source.unsplash.com/random/900×700/?work" alt="">
-        </div>
-        <div class="bottomCard">
-          <span class="bottomText">Aqui é um é um texto exemplo de resumo da página ou do documento que o card trata.</span>
-          <div class="actionCard">
-            <button class="actions"><i class="fa-brands fa-github fa-xl"></i></button>
-            <button class="actions"><i class="fa-solid fa-link fa-xl"></i></button>
-          </div>
-        </div>
-      </div>
 
-      <div class="card">
-        <div class="topCard">
-          <h2 class="title">Título do card</h2>
-          <span class="subtitle">Exemplo de texto secundário</span>
-        </div>
-        <div class="mediaCard">
-          <img src="https://source.unsplash.com/random/900×700/?movie" alt="">
-        </div>
-        <div class="bottomCard">
-          <span class="bottomText">Aqui é um é um texto exemplo de resumo da página ou do documento que o card trata.</span>
-          <div class="actionCard">
-            <button class="actions"><i class="fa-brands fa-github fa-xl"></i></button>
-            <button class="actions"><i class="fa-solid fa-link fa-xl"></i></button>
+        <section>
+          <h1 class="title">Projetos</h1>
+          <div class="projects-wrapper">
+            <div class="card">
+              <div class="card-name">
+                <h3>Nome do projeto</h3>
+                <p>HTML | CSS | JAVASCRIPT</p>
+              </div>
+              <div class="card-image">
+                <img src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              </div>
+              <div class="card-links">
+                <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-codepen fa-2x"></i></a>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-name">
+                <h3>Nome do projeto</h3>
+                <p>HTML | CSS | JAVASCRIPT</p>
+              </div>
+              <div class="card-image">
+                <img src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              </div>
+              <div class="card-links">
+                <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-codepen fa-2x"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-name">
+                <h3>Nome do projeto</h3>
+                <p>HTML | CSS | JAVASCRIPT</p>
+              </div>
+              <div class="card-image">
+                <img src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              </div>
+              <div class="card-links">
+                <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-codepen fa-2x"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-name">
+                <h3>Nome do projeto</h3>
+                <p>HTML | CSS | JAVASCRIPT</p>
+              </div>
+              <div class="card-image">
+                <img src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              </div>
+              <div class="card-links">
+                <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-codepen fa-2x"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-name">
+                <h3>Nome do projeto</h3>
+                <p>HTML | CSS | JAVASCRIPT</p>
+              </div>
+              <div class="card-image">
+                <img src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              </div>
+              <div class="card-links">
+                <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-codepen fa-2x"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-name">
+                <h3>Nome do projeto</h3>
+                <p>HTML | CSS | JAVASCRIPT</p>
+              </div>
+              <div class="card-image">
+                <img src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+              </div>
+              <div class="card-links">
+                <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="#"><i class="fa-brands fa-codepen fa-2x"></i></a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      
+        </section>
+        
+        <footer>
+          <div class="footer">
+            <h1>Prática <spnan class="title_JS">JS</spnan></h1>
+            <div class="links_footer">
+              <ul>
+                <li>
+                  <a href="../pages/sobre.html">Sobre</a>
+                </li>
+                <li>Github</li>
+                <li>Colaboradores</li>
+              </ul>
+            </div>
+          </div>
+       
+          <span>Copyright &copy; 2022. Todos direito reservado a Vinicius Oliveira</span>
+        </footer>
+
     </div>
     
-    <div class="link">
-      <a href="#">Ver mais</a>
-    </div>
-
-  </section>
-  
-  <footer>
-    <div class="footer">
-      <h1>Prática <spnan class="title_JS">JS</spnan></h1>
-      <div class="links_footer">
-        <ul>
-          <li>
-            <a href="../pages/sobre.html">Sobre</a>
-          </li>
-          <li>Github</li>
-          <li>Colaboradores</li>
-        </ul>
-      </div>
-    </div>
- 
-    <span>Copyright &copy; 2022. Todos direito reservado a Vinicius Oliveira</span>
-  </footer>
-
-  <script src="../js/typed.js"></script>
-
 </body>
 </html>
