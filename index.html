@@ -5,20 +5,23 @@
     <link rel="shortcut icon" href="./assets/images/fav-icon.svg" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prática JS</title>
+    <title>Prática JS | Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="./assets/images/icons8-javascript-240.svg" alt="">
+            <div class="title-nav">
+              <img src="./assets/images/icons8-javascript-240.svg" alt="">
+            <p>Prática JS</p>
+            </div>
             <div class="menu-wrapper">
               <nav>
                 <ul>
-                    <li><a href="#">Início</a> </li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Sobre</a> </li>
+                    <li><a href="#inicio">Início</a> </li>
+                    <li><a href="#projeto">Projetos</a></li>
+                    <li><a href="./assets/pages/about.html">Sobre</a> </li>
                 </ul>
             </nav>
             <div class="container_toggle">
@@ -31,8 +34,8 @@
             
         </header>
 
-        <main>
-            <h1>Olá, bem-vindo ao <span>Prática JS </span> 👋</h1>
+        <main id="inicio">
+            <h1>Olá, bem-vindo ao Prática JS 👋</h1>
             
            <div class="animated">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -75,16 +78,16 @@
             </div>
         </div>
 
-        <section>
+        <section id="projeto">
           <h1 class="title">Projetos</h1>
           <div class="projects-wrapper">
             <div class="card">
               <div class="card-name">
-                <h3>Nome do projeto</h3>
+                <h3>Focus Timer</h3>
                 <p>HTML | CSS | JAVASCRIPT</p>
               </div>
               <div class="card-image">
-                <img src="https://fakeimg.pl/400x300/009578/fff/" alt="">
+                <img src="./assets/images/projects/FocusTimer.png" alt="">
               </div>
               <div class="card-links">
                 <a href="#"><i class="fa-brands fa-github fa-2x"></i></a>
@@ -170,7 +173,7 @@
             <div class="links_footer">
               <ul>
                 <li>
-                  <a href="../pages/sobre.html">Sobre</a>
+                  <a href="./assets/pages/about.html">Sobre</a>
                 </li>
                 <li>Github</li>
                 <li>Colaboradores</li>

@@ -33,6 +33,22 @@ ul li a:hover{
     color: var(--fc-secondary);
 }
 
+.title-nav{
+    display: flex;
+    align-items: center;
+}
+
+.title-nav p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.title-nav img{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
 header img{
     width: 8rem;
 }
@@ -165,8 +181,6 @@ label:active:after {
 }
 
 section h1{
-
-    
     text-align: center;
     margin: auto;
 
@@ -194,9 +208,6 @@ section h1{
 .card-image img{
     width: 100%;
     display: block;
-
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
 }
 
 .card-name, .card-links{
@@ -219,10 +230,9 @@ section h1{
 }
 .card-name h3:hover{
     color: var(--fc-secondary);
-
 }
 
-
+/*Footer*/
 footer{
     border-top: 1px solid var(--line);
     margin-top: 2rem;
